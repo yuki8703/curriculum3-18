@@ -1,0 +1,95 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* @import url(reset.css); CSS内でリセットCSSを読み込ませることもできる*/
+
+.red--box {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background: red;
+    position: relative;
+}
+
+.purple--box1 {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 10px;
+    background-color: purple;
+    border: solid 10px #ffffff;
+}
+
+.purple--box2 {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: purple;
+    border: solid 10px #ffffff;
+}
+
+.purple--box3 {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: purple;
+    border: solid 10px #ffffff;
+}
+
+.green--box {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 250px;
+    background: green;
+}
+
+.brown--box {
+    width: 400px;
+    height: 250px;
+    background-color: brown;
+}
+
+.orange--box1 {
+    float: left;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: orange;
+    border: solid 5px #ffffff;
+}
+
+.orange--box2 {
+    float: left;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: orange;
+    border: solid 5px #ffffff;
+}
+
+.orange--box3 {
+    float: left;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    background-color: orange;
+    border: solid 5px #ffffff;
+}
+
+.yellow--box {
+    width: 400px;
+    height: 100px;
+    background: yellow;
+}
